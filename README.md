@@ -80,9 +80,9 @@ L = \alpha \cdot MSE(T, S) + (1-\alpha) \cdot L_{hard}
 
 ### Teacher 모델 성능 [모델 코드](./teacher_model)
 
-| 모델 | Accuracy(%) | F1-score(%) | FPS |
-|-------|------------|-------------|-----|
-| EfficientNet-b7 | 96.87 | ... | 204.13 |
+| 모델 | Accuracy(%) | F1-score(%) | FPS | params(M) |
+|-------|------------|-------------|-----|----------|
+| EfficientNet-b7 | 96.87 | 96.81 | 204.13 | 65.1 |
 
 ### Student 모델 성능 (ResNet8) 및 지식 증류 효과 [모델 코드](./student_KD)
 
